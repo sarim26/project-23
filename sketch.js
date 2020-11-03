@@ -20,9 +20,6 @@ function setup() {
 	rectMode(CENTER);
 	
 
-edge1=createSprite(393,600,15,70)
-edge2=createSprite(434,627.5,70,15)
-edge3=createSprite(462,600,15,70)
 
 	packageSprite=createSprite(width/2, 80, 10,10);
 	packageSprite.addImage(packageIMG)
@@ -56,12 +53,6 @@ edge3=createSprite(462,600,15,70)
 function draw() {
   rectMode(CENTER);
   background(0);
-  
- if(keyDown(DOWN_ARROW)){
-
-	packageBody={isStatic:false}
-
- }
  
  
   packageSprite.x= packageBody.position.x 
